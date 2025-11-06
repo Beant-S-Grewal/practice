@@ -2,6 +2,8 @@
 print("hey there !")
 n =int(input("Enter a number: "))
 print(n)
+
+print(type(n))
 """
 x,y,z = map(int, input("Set the x,y,z coordinates ").split())
 
