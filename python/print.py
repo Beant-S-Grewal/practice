@@ -1,2 +1,15 @@
-for i in range(10,101,10):
-    print(i)
+# split function for multline user input
+print("hey there !")
+x,y,z = map(int, input("Set the x,y,z coordinates ").split())
+
+"""
+x = int(x)
+y = int(y)
+z = int(z)
+"""
+
+print("x : ", x)
+print("y : ", y)
+print("z : ", z)
+print(x+y)
+print(x*y)
